@@ -22,12 +22,12 @@ class Circle extends Shape {
   @override
   void area() {
     double result = 3.1416 * radius * radius;
-    setArea(result);  // store area using setter
+    setArea(result);
   }
 }
 
 void main() {
   Circle c1 = Circle(13);
-  c1.area(); // calculate and set area
+  c1.area();
   print("Circle Area: ${c1.getArea()}");
 }
